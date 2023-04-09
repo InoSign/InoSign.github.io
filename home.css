@@ -21,11 +21,21 @@
   justify-content: center;
   background-color: #161616;
 }
+.home-link {
+  top: 16px;
+  color: var(--dl-color-gray-white);
+  right: 50px;
+  position: absolute;
+  font-size: 20px;
+  text-decoration: none;
+}
 .home-navbar {
-  width: 1305px;
-  height: 86px;
+  width: auto;
+  height: 100%;
   display: flex;
+  position: relative;
   max-width: var(--dl-size-size-maxcontent);
+  align-self: flex-start;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -56,8 +66,8 @@
   object-fit: cover;
 }
 .home-links-container {
-  width: 200px;
-  height: 100px;
+  width: 168px;
+  height: 70px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -67,13 +77,6 @@
   color: var(--dl-color-gray-white);
   font-size: 36px;
   font-weight: 900;
-}
-.home-right-side {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
 }
 .home-mobile-menu {
   top: 0px;
@@ -118,10 +121,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-link {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .home-link1 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -131,6 +130,36 @@
   text-decoration: none;
 }
 .home-link3 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-link4 {
+  text-decoration: none;
+}
+.home-link5 {
+  top: 16px;
+  color: var(--dl-color-gray-white);
+  right: 200px;
+  position: absolute;
+  font-size: 20px;
+  text-decoration: none;
+}
+.home-link6 {
+  top: 16px;
+  left: left;
+  color: var(--dl-color-gray-white);
+  right: 350px;
+  position: absolute;
+  font-size: 20px;
+  text-decoration: none;
+}
+.home-link7 {
+  top: 16px;
+  left: left;
+  color: var(--dl-color-gray-white);
+  right: 500px;
+  position: absolute;
+  font-size: 20px;
   text-decoration: none;
 }
 .home-hero {
@@ -177,11 +206,14 @@
   margin-bottom: var(--dl-space-space-fiveunits);
 }
 .home-text05 {
-  background-color: #FFFFFF;
   color: #000000;
   font-size: 20px;
-  text-align: center;
+  align-self: center;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 600;
   margin-bottom: var(--dl-space-space-fiveunits);
+  background-color: #D9D9D9;
 }
 .home-cta-btn {
   color: var(--dl-color-gray-white);

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>InoSign</title>
+    <title>Landing Page</title>
     <meta property="og:title" content="Landing Page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -42,9 +42,9 @@
       html {
       scroll-behavior: smooth;
       }
+      <link rel="preload" as="image" href="https://images.unsplash.com/photo-1597425842320-de0c26b33327?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fG1pbmltYWxpc3QlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHx8fDE2ODEwMzk4NDc&amp;ixlib=rb-4.0.3&amp;h=700" />
     </style>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1597425842320-de0c26b33327?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fG1pbmltYWxpc3QlMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHx8fDE2ODEwMzk4NDc&amp;ixlib=rb-4.0.3&amp;h=700" />
   </head>
   <body>
     <div>
@@ -52,6 +52,7 @@
 
       <div class="home-container">
         <div data-role="Header" class="home-navbar-container">
+          <a href="#getintouch" class="home-link">Contact Us</a>
           <div class="home-navbar">
             <div class="home-left-side">
               <div data-role="BurgerMenu" class="home-burger-menu">
@@ -64,6 +65,7 @@
               <img
                 alt="image"
                 src="inosign.jpeg"
+                loading="eager"
                 class="home-image"
               />
               <div class="home-links-container">
@@ -73,7 +75,6 @@
                 </span>
               </div>
             </div>
-            <div class="home-right-side"></div>
             <div data-role="MobileMenu" class="home-mobile-menu">
               <div class="home-container1">
                 <img
@@ -90,13 +91,16 @@
                 </div>
               </div>
               <div class="home-links-container1">
-                <a href="#resources" class="home-link Anchor">Resources</a>
-                <a href="#inspiration" class="home-link1 Anchor">Inspiration</a>
-                <a href="#process" class="home-link2 Anchor">Process</a>
-                <span class="home-link3 Anchor">Our story</span>
+                <a href="#resources" class="home-link1 Anchor">Resources</a>
+                <a href="#inspiration" class="home-link2 Anchor">Inspiration</a>
+                <a href="#process" class="home-link3 Anchor">Process</a>
+                <span class="home-link4 Anchor">Our story</span>
               </div>
             </div>
           </div>
+          <a href="#inspiration" class="home-link5">About Us</a>
+          <a href="#process" class="home-link6">Services</a>
+          <a href="#resources" class="home-link7">Home</a>
         </div>
         <div id="resources" class="home-hero">
           <div class="home-content-container">
@@ -107,7 +111,10 @@
                 </span>
                 <br />
               </h1>
-              <span class="home-text05">Creating Smiles, One Home at a Time with our Innovative Interior Design</span>
+              <span class="home-text05">
+                Creating Smiles, One Home at a Time with our Innovative Interior
+                Design
+              </span>
               <button class="home-cta-btn Anchor button">START NOW</button>
             </div>
           </div>
@@ -224,7 +231,7 @@
         </div>
         <div class="home-section-separator1"></div>
         <div class="home-section-separator2"></div>
-        <div class="home-get-in-touch">
+        <div id="getintouch" class="home-get-in-touch">
           <h2 class="home-text24 Section-Heading">Get in touch</h2>
           <div class="home-content-container1">
             <div class="home-form-container">

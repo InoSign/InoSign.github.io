@@ -335,13 +335,13 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button {
+.home-link08 {
   align-self: center;
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-link08 {
+.home-text13 {
   color: rgb(249, 246, 246);
-  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-service-card1 {
@@ -360,12 +360,12 @@
   height: 800px;
   object-fit: cover;
 }
-.home-text15 {
+.home-text16 {
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-text16 {
+.home-text17 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -391,7 +391,7 @@
   height: 800px;
   object-fit: cover;
 }
-.home-text18 {
+.home-text19 {
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -434,7 +434,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.home-text22 {
+.home-text23 {
   color: var(--dl-color-gray-white);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -524,7 +524,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
 }
-.home-text23 {
+.home-text24 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -761,11 +761,11 @@
     margin-bottom: 23px;
     padding-bottom: 0px;
   }
-  .home-text15 {
+  .home-text16 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
-  .home-text16 {
+  .home-text17 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
@@ -780,14 +780,14 @@
     height: 762px;
     align-self: stretch;
   }
-  .home-text18 {
+  .home-text19 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
   .home-team {
     background-color: var(--dl-color-gray-black);
   }
-  .home-text22 {
+  .home-text23 {
     color: #f9f7f7;
   }
   .home-cards-container2 {
@@ -915,7 +915,7 @@
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
-  .home-text22 {
+  .home-text23 {
     text-align: center;
   }
   .home-content-container1 {

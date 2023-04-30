@@ -121,30 +121,29 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-link1 {
+.home-link01 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link2 {
+.home-link02 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link3 {
+.home-link03 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-link4 {
+.home-link04 {
   text-decoration: none;
 }
-.home-link5 {
+.home-link05 {
   top: 16px;
   color: var(--dl-color-gray-white);
   right: 200px;
   position: absolute;
   font-size: 20px;
-  text-decoration: none;
 }
-.home-link6 {
+.home-link06 {
   top: 16px;
   left: left;
   color: var(--dl-color-gray-white);
@@ -153,7 +152,7 @@
   font-size: 20px;
   text-decoration: none;
 }
-.home-link7 {
+.home-link07 {
   top: 16px;
   left: left;
   color: var(--dl-color-gray-white);
@@ -223,6 +222,7 @@
   border-radius: 30px;
   padding-right: var(--dl-space-space-tenunits);
   padding-bottom: var(--dl-space-space-doubleunit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-features {
@@ -307,7 +307,7 @@
 }
 .home-cards-container1 {
   width: 100%;
-  height: 955px;
+  height: 978px;
   display: flex;
   max-width: var(--dl-size-size-maxcontent);
   align-items: flex-start;
@@ -339,8 +339,9 @@
   align-self: center;
   background-color: var(--dl-color-gray-black);
 }
-.home-text13 {
+.home-link08 {
   color: rgb(249, 246, 246);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-service-card1 {
@@ -359,18 +360,19 @@
   height: 800px;
   object-fit: cover;
 }
-.home-text16 {
+.home-text15 {
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-text17 {
+.home-text16 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button1 {
+.home-link09 {
   color: var(--dl-color-gray-white);
   align-self: center;
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-service-card2 {
@@ -389,14 +391,15 @@
   height: 800px;
   object-fit: cover;
 }
-.home-text19 {
+.home-text18 {
   align-self: center;
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-button2 {
+.home-link10 {
   color: var(--dl-color-gray-white);
   align-self: center;
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-section-separator {
@@ -431,7 +434,7 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.home-text23 {
+.home-text22 {
   color: var(--dl-color-gray-white);
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
@@ -521,7 +524,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-start;
 }
-.home-text24 {
+.home-text23 {
   text-align: center;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -590,6 +593,7 @@
   border-radius: var(--dl-radius-radius-radius24);
   padding-right: var(--dl-space-space-tenunits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
 .home-section-separator3 {
@@ -757,11 +761,11 @@
     margin-bottom: 23px;
     padding-bottom: 0px;
   }
-  .home-text16 {
+  .home-text15 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
-  .home-text17 {
+  .home-text16 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
@@ -776,14 +780,14 @@
     height: 762px;
     align-self: stretch;
   }
-  .home-text19 {
+  .home-text18 {
     align-self: center;
     margin-top: var(--dl-space-space-tripleunit);
   }
   .home-team {
     background-color: var(--dl-color-gray-black);
   }
-  .home-text23 {
+  .home-text22 {
     color: #f9f7f7;
   }
   .home-cards-container2 {
@@ -911,7 +915,7 @@
     padding-top: var(--dl-space-space-fiveunits);
     padding-bottom: var(--dl-space-space-fiveunits);
   }
-  .home-text23 {
+  .home-text22 {
     text-align: center;
   }
   .home-content-container1 {

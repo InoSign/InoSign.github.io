@@ -261,9 +261,8 @@
 }
 .page-navlink {
   top: 16px;
-  left: left;
+  left: 1385px;
   color: var(--dl-color-gray-white);
-  right: 500px;
   position: absolute;
   font-size: 20px;
   text-decoration: none;
